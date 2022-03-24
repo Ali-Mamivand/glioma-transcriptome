@@ -1,2 +1,2 @@
 # Glioma Transcriptome
-This code is usable to analyze RNA-seq data.
+This code is suitable for analyzing RNA-seq data in TCGA.
