@@ -38,7 +38,7 @@ clinical_information = as.data.frame(colData(counts.table))
                                design = ~ project_id))
 ##------Quality Control-----------
 dim(ddsMat)
-#remove reads with 0 counts across all samples:
+#remove genes with 0 counts across all samples:
 dds <- ddsMat[ rowSums(counts(ddsMat)) > 1, ]
 dim(dds)
 dds_vst <- vst(dds)
